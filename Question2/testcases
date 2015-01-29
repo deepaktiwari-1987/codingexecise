@@ -1,0 +1,22 @@
+1) Case 1
+
+Step 1 : Create an csv file name with any wrong name with entries for 3 companies for all 12 months data.
+Expected Result :  Then process the file there should be an error message "File doest'nt Exist";
+
+2) Case 2
+
+Step 1 : Create an csv file name "companyshare.csv" with entries for 3 companies for all 12 months data.
+Step 2 : Then process the file.
+Expected Result : 1) List of all company name with highest share in month and year basis with company name and share price.
+2) Show the highest Share Amount with Company name.
+Example : Let's "Company A" has highest share Amount with 996 the the result should be "Company A" Having Highest Share Amount of 996.
+
+3)Show the highest Average Share Amount with Company name.
+Example : Let's "Company A" has highest share Amount with 42.67 the the result should be "Company A" Having Highest Average Share Amount of 42.67. 
+
+3) Case 3 
+
+Step 1 : Create an csv file name "companyshare.csv" with entries for 3 companies for all different number of months
+Step 2 : Then process the file.
+
+Expected Result : Result should be same as Case 2

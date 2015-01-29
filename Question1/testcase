@@ -1,0 +1,26 @@
+1) Case 1 :  Input String lenght is less than anagram input string
+Input String = 'ABC'
+Anagram : 'ABCA'
+
+Expected Result : "Not An Anagram string"
+
+2) Case 2 : Input String Length is equal to anagram input string but an character is twice in anagram string
+
+Input String : 'ABC'
+Anagram : 'AAB'
+
+Expected Result : "Not An Anagram string"
+
+3) Case 3 : Input String Length is equal to anagram input string but an character does not match
+
+Input String : 'ABC'
+Anagram : 'ABD'
+
+Expected Result : "Not An Anagram string"
+
+4) Case 4 : Input String Length is greater to anagram input string and anagram string every character exist into input string exactly once
+
+Input String : 'ABCD'
+Anagram : 'ABC'
+
+Expected Result : "ABC is anagram of ABCD"
